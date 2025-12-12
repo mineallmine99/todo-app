@@ -1,7 +1,10 @@
-console.log('todo app');
+console.log("Todo App");
 
 function addTodo(title) {
-    return {title, done: false};
+  return {
+    title,
+    completed: false
+  };
 }
 
-console.log(addTodo('Learn Git'));
+console.log(addTodo("Learn Git PR"));
